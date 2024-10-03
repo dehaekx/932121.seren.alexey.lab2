@@ -1,7 +1,176 @@
-.container
-{
+.lab2_up{
+    font-size: 200%;
+    background-color: darkgray;
+    padding-bottom: 5%;
+}
+.lab2_left{
+    background-color: rgb(164, 236, 164);
+    float: left;
+    width: 25%;
+}
+.lab2_spec{
+    color: red;
+}
+.lab2_cont{
+    margin-left: 240px;
+    margin-right: 210px;
+    background-color: white;
+}
+div{
+    padding: 0;
+    margin: 0;
+}
+.lab2_right{
+    background-color: rgb(240, 208, 70);
+    float: right;
+    width: 200px;
+}
+.green_cont{
+    background-color: green;
+    color: white;
+    width: 40%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.upper_cont{
+    width: 470px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.bottom_cont{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:50px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: blue;
+}
+.static_div{
+    position: static;
+    left: 10px;
+    top: 10px;
+    width: 200px;
+    height: 120px;
+    background-color: blueviolet;
+    color: white;
+}
+.redrelative_div{
+    position: relative;
+    width: 200px;
+    height: 120px;
+    background-color: rgb(119, 4, 4);
+    color: white;
+}
+.orngrelative_div{
+    position: relative;
+    left: 40px;
+    bottom: 40px;
+    width: 200px;
+    height: 120px;
+    background-color: orange;
+    color: white;
+}
+.pinkrelative_div{
+    position: relative;
+    width: 600px;
+    height: 500px;
+    background-color: pink;
+    color: white;
+}
+.absolute_div{
+    position: relative;
+    left: 300px;
+    top: 125px;
+    width: 300px;
+    height: 250px;
+    background-color: rgb(70, 1, 70);
+    color: white;
+}
+.fixed_div{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 120px;
+    height: 120px;
+    background-color: green;
+    color: white;
+}
+.wrapper{
+    width: 100%;
+    background-color: aqua;
+    border-style: solid;
+    border-color: green;
+    border-width: 2px;
+    padding: 0;
+    margin: 0;
+}
+.menu{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+    width: 30%;
+    background-color: bisque;
+}
+.content{
+    background-color: darkgray;
+    display: inline-block;
+    max-width: 70%;
+    min-width: 0;
+}
+.green_bottom{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: greenyellow;
+    height: 80px;
+}
+img{
+    width: 50%;
+    height: auto;
+    float: right;
+}
+.blue_cont{
+    position: fixed;
     background-color: blue;
-    color:white;
-    width:50%;
-    margin: 0 auto;
+    width: 600px;
+    left: 20%;
+    right: 20%;
+    top: 0;
+}
+.float_box{
+    float: left;
+    background-color:aquamarine;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+}
+.clear_box{
+    clear: right;
+
+}
+p{
+    margin: 0;
+}
+@media (max-width: 800px) {
+    li{
+        display: inline;
+        margin: 0;
+    }
+    ul{
+        margin: 0;
+    }
+    .menu{
+        margin: 10px 0;
+        width: 100%;
+    }
+    .content{
+        max-width: 100%;
+    }
 }
